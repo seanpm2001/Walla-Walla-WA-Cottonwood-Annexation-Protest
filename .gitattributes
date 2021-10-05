@@ -16,16 +16,19 @@
 *.yaml linguist-detectable=false
 *.yaml linguist-documentation=false
 # Markdown
-# Do not include, as it would become the 100% dominant language and would hide all the other languages as "other"
-*.md linguist-detectable=false
+*.md linguist-detectable=true
 *.md linguist-documentation=false
+*.mkd linguist-detectable=true
+*.mkd linguist-documentation=false
+*.markdown linguist-detectable=true
+*.markdown linguist-documentation=false
 # Makefile (GNU Make)
 # Do not include, as it is not needed to be shown
 *.mk linguist-detectable=false
 *.mk linguist-documentation=false
 # End of linguist script
 # File info
-# File type: .gitattributes file
-# File version: 1 (Monday, 2021 August 23rd at 4:17 pm)
-# Line count (including blank lines and compiler line): 32
+# File type: gitattributes file (.gitattributes)
+# File version: 2 (Monday, 2021 October 4th at 8:02 pm)
+# Line count (including blank lines and compiler line): 35
 # End of script
